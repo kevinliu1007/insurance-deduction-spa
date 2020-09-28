@@ -2,7 +2,7 @@
 
 Paylocity interview insurance deduction calculator React front end implementation.
 
-* Public URL: [thekevinliu.com](thekevinliu.com)
+* Public URL: [thekevinliu.com](http://thekevinliu.com/)
 
 ---
 
