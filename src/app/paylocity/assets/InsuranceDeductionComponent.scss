@@ -1,0 +1,80 @@
+@import "~bootstrap/scss/bootstrap";
+
+.InsuranceDeduction {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 40px auto;
+  width: 65%;
+  min-width: 630px;
+
+  .form-control {
+    width: 90%;
+    margin: auto;
+  }
+
+  .Form-label {
+    font-weight: bold;
+    font-size: 27px;
+    margin-top: 40px;
+  }
+
+  .List-items {
+    margin-top: 30px;
+  }
+
+  .form-input-Label {
+    font-weight: 600;
+  }
+}
+
+.Table-content {
+  text-align: center;
+  margin: 40px auto;
+  width: 60%;
+  min-width: 630px;
+
+  Table {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  td:not(.Table-element-net) {
+    font-weight: 300;
+    font-size: 18px;
+  }
+
+  .Table-element-net {
+    font-weight: bold;
+    font-size: 18px;
+  }
+}
+
+.Nav {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.ListGroup-Item {
+  margin-top: 10px;
+}
+
+.Spinner {
+  align-items: center;
+  margin-top: 50px;
+}
+
+.Submit-button {
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 150px;
+}
+
+.Remove-button {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.line-break {
+  margin-top: 40px;
+}
