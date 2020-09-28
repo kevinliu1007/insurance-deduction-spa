@@ -1,4 +1,10 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Insurance Deduction React SPA
+
+Paylocity interview insurance deduction calculator React front end implementation.
+
+* Public URL: [thekevinliu.com](thekevinliu.com)
+
+---
 
 ## Available Scripts
 
