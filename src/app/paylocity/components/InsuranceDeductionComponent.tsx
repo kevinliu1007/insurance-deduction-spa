@@ -68,6 +68,7 @@ const InsuranceDeductionComponent: React.FC = (): JSX.Element => {
   }
 
   const handleRemoveDependent: Function = function handleRemoveDependent(event: React.MouseEvent<HTMLElement, MouseEvent>, index: number) {
+    setShowPreview(false);
     const tempList = [...dependentList];
     tempList.splice(index, 1);
     setDependentList(tempList);
