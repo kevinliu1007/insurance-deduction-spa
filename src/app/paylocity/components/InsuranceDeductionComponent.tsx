@@ -262,7 +262,7 @@ const InsuranceDeductionComponent: React.FC = (): JSX.Element => {
           className="Submit-button"
           variant="dark" 
           type="submit" 
-          disabled={!startedFiling || showSpinner || !validateAllInput(employeeInfo, dependentList)}
+          disabled={!startedFiling || showSpinner || showPreview || !validateAllInput(employeeInfo, dependentList)}
           onClick={handleSubmit}>
           {showSpinner ? 'Calculating...' : 'Submit'}
         </Button>
